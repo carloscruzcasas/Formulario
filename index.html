@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/codigo.js"></script>
+    <title>Index</title>
+</head>
+
+<body>
+    <h1>Creación de usuarios.</h1>
+    <div>
+        <form action="#" id="frmCrear" method="POST"></form>
+        <p>Ingrese el nombre del usuario a registrar</p>
+        <input type="text" id="nombre" name="Nombre" placeholder="Name">
+    </div>
+    <div>
+        <p>Ingrese el apellido del usuario a registrar</p>
+        <input type="text" id="apellido" name="Apellido" placeholder="Apellido">
+    </div>
+    <div>
+        <button id="btnCrearUsuario">Guardar</button>
+    </div>
+    </form>
+    <template id="template">
+        <div class ="Personas">
+            <label>Nombre</label>
+            <input type="text" class="nombre" readonly/>
+            <h3 class="Nombre"></h3>
+            <p class ="Apellido"></p>
+            <p class = "Procesado"></p>
+        </div>
+    </template>
+
+</body>
+
+</html>
