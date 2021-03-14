@@ -7,3 +7,5 @@ En el mismo se puede observar como permite realizar la creación de un uaurio  y
 Frontend se pueda realizar la toma de la información con solo seleccionar el nombre o registro de los mismos.
 
 Se adjunta en la carpeta de Evidencias las imagenes que desde Postman fueron tomadas en el momento de la realización de los respectivos métodos y operaciones CRUD.
+
+En el archivo de Index.html se muestra la realización de un pequeño front en el cual se buscaba mostrar la conexion entre ambos y el consumo del servicio.
